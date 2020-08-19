@@ -18,7 +18,6 @@ let insect3 = null;　// 四則演算で使用する3種類目の虫
 let fakeNum = null; // 問題を難しくするために使用し、計算には使用しない数値
 let startingTime = null;
 let elapsedTime = null;
-let insectPics = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42]; // 使用する虫の写真
 
 // スタートボタンを押した時の処理
 startButton.onclick = () => {
@@ -113,7 +112,7 @@ stopButton.onclick = () => {
         resultArea.appendChild(result);
         const insectPlace = document.createElement('div');
         const insectPic = document.createElement('img');
-        insectPic.src = `${insectPics[createRandomNums(insectPics.length)]}.jpg`;
+        insectPic.src = createRandomNums(42).jpg; //写真の数を変更したらここの数値を変える
         insectPic.setAttribute('alt', '虫の画像');
         insectPic.setAttribute('width', '50%');
         insectPlace.appendChild(insectPic);
