@@ -1,0 +1,101 @@
+body{
+    background-image: url("背景.jpg");
+    background-size: cover;
+    font-size: 1.25rem;
+    color: #000;
+    font-family: "Times New Roman", "メイリオ", sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: "MS P明朝", serif;
+}
+
+span{
+    font-size: 4rem;
+    color: #fff;
+    display: inline-block;
+    width: 5.75rem;
+    height: 5.75rem;
+    border-radius: 50%;
+    background: #000;
+    text-align: center;
+}
+
+
+button {
+    display: inline-block;
+    padding: 0.435rem 1.25rem;
+    border-radius: 1.5625rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #84cae7;
+    font-size: 1.125rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    border: 0rem;
+}
+
+button:hover{
+    background-color: #fff;
+    color:#84cae7;
+}
+
+button:disabled{
+    background-color: #cacfd3;
+    color: #fff;
+}
+
+.radio-input{
+    display: inline-block;
+}
+
+.radiobtn input{
+	display: none;
+}
+.radiobtn label{
+	float: left;
+	cursor: pointer;
+	width: 6.25rem;
+	margin: 0;
+	padding: 0.75rem 0.3125rem;
+	border-right: 0.0625rem solid #abb2b7;
+	background: #cacfd3;
+	color: #434649;
+	font-size: 1.125rem;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+.radiobtn label:first-of-type{
+	border-radius: 0.1875rem 0 0 0.1875rem;
+}
+.radiobtn label:last-of-type{
+	border-right: 0rem;
+	border-radius: 0 0.1875rem 0.1875rem 0;
+}
+.radiobtn input[type="radio"]:checked + label {
+	background-color: #22aaa1;
+	color: #fff;
+}
+
+#math-area{
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    width: 75rem;
+}
+
+#result-area{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 75rem;
+}
+
+#tweet-area{
+    display: none;
+    margin-top: 0.625rem;
+}

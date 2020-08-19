@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kidsmath.css">
+    <title>パパさんすうの神</title>
+</head>
+
+<body>
+    <h1>パパさんすうの<span>神</span></h1>
+    <div class="radio-input">
+        <form id="mathChoice" class="radiobtn">
+            <input type="radio" name="group1" value="add" id="add" checked>
+            <label for="add">たしざん</label>
+            <input type="radio" name="group1" value="sub" id="sub">
+            <label for="sub">ひきざん</label>
+            <input type="radio" name="group1" value="mul" id="mul">
+            <label for="mul">かけざん</label>
+            <input type="radio" name="group1" value="div" id="div">
+            <label for="div">わりざん</label>
+        </form>
+    </div>
+    <br>
+    <div class="radio-input">
+        <form id="level" class="radiobtn">
+            <input type="radio" name="group2" value="intermediate" id="intermediate" checked>
+            <label for="intermediate">ふつう</label>
+            <input type="radio" name="group2" value="advanced" id="advanced">
+            <label for="advanced">むずかしい</label>
+        </form>
+    </div>
+    <br>
+    <button id="start">スタート</button>
+    <br>
+    <div id="math-area"></div>
+    <br>
+    <button id="stop" disabled>こたえる</button>
+    <br>
+    <div id="result-area"></div>
+    <div id="tweet-area">
+        <a href="https://twitter.com/intent/tweet?button_hashtag=ぱぱさんすうの神&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-text="パパさんすう完了！全問正解しました！！" data-show-count="false">Tweet #パパさんすうの神</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script src="kidsmath.js"></script>
+</body>
+
+</html>
