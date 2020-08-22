@@ -112,7 +112,7 @@ stopButton.onclick = () => {
         resultArea.appendChild(result);
         const insectPlace = document.createElement('div');
         const insectPic = document.createElement('img');
-        insectPic.src = createRandomNums(42).jpg; //写真の数を変更したらここの数値を変える
+        insectPic.src = `${createRandomNums(43)}.jpg`; //写真の数を変更したらここの数値を変える
         insectPic.setAttribute('alt', '虫の画像');
         insectPic.setAttribute('width', '50%');
         insectPlace.appendChild(insectPic);
